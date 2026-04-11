@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      "colors": {
+              "secondary-fixed-dim": "#ffb3ad",
+              "inverse-primary": "#87d7a9",
+              "inverse-on-surface": "#f5f0e7",
+              "on-tertiary": "#ffffff",
+              "surface-dim": "#dedad1",
+              "primary-container": "#136a44",
+              "secondary": "#ab3430",
+              "primary": "#005031",
+              "error-container": "#ffdad6",
+              "on-primary": "#ffffff",
+              "surface-container-highest": "#e6e2d9",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-high": "#ece8df",
+              "surface-variant": "#e6e2d9",
+              "on-primary-fixed": "#002111",
+              "background": "#fdf9f0",
+              "tertiary-fixed": "#e0e3df",
+              "on-error-container": "#93000a",
+              "on-primary-container": "#96e7b8",
+              "surface": "#fdf9f0",
+              "error": "#ba1a1a",
+              "surface-container": "#f2ede4",
+              "on-tertiary-container": "#d4d7d3",
+              "on-surface-variant": "#3f4941",
+              "on-surface": "#1c1c16",
+              "on-error": "#ffffff",
+              "on-tertiary-fixed": "#191c1a",
+              "surface-tint": "#156c46",
+              "on-background": "#1c1c16",
+              "on-primary-fixed-variant": "#005232",
+              "on-tertiary-fixed-variant": "#444844",
+              "outline-variant": "#bec9be",
+              "inverse-surface": "#32302a",
+              "tertiary": "#424643",
+              "on-secondary-fixed": "#410003",
+              "on-secondary-container": "#70050c",
+              "secondary-container": "#ff7169",
+              "outline": "#6f7a70",
+              "tertiary-fixed-dim": "#c4c7c3",
+              "secondary-fixed": "#ffdad6",
+              "primary-fixed": "#a3f4c3",
+              "tertiary-container": "#5a5e5a",
+              "surface-container-low": "#f7f3ea",
+              "primary-fixed-dim": "#87d7a9",
+              "on-secondary-fixed-variant": "#8a1b1c",
+              "surface-bright": "#fdf9f0",
+              "on-secondary": "#ffffff"
+      },
+      "borderRadius": {
+              "DEFAULT": "0.125rem",
+              "lg": "0.25rem",
+              "xl": "0.5rem",
+              "full": "0.75rem"
+      },
+      "fontFamily": {
+              "headline": ["Newsreader", "serif"],
+              "body": ["Inter", "sans-serif"],
+              "label": ["Inter", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+}
