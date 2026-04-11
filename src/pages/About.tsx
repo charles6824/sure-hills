@@ -116,7 +116,7 @@ const About = () => {
               <img 
                 alt="Ekpe Uchechi Raymond" 
                 className="w-full h-full object-cover" 
-                src="/images/luxury_suite_interior_1775924765092.png"
+                src="/images/ray.jpg"
               />
             </div>
             <div className="w-full md:w-1/2 p-8 md:p-12 lg:p-20">
